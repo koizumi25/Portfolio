@@ -11,7 +11,7 @@ var introduction = new Vue({
       {id: 'sub_title_5', name:'SELFINTRO'}
     ],
       main_content: '名前は小泉祐樹です．人生の分岐点は大学院1年の夏',
-      content: 'うんちがしたい'
+      content: 'とても眠たい'
   },
   methods: {
     mousemove(e){   //マウスが動いた時に呼び出される関数
