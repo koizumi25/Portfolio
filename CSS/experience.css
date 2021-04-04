@@ -1,0 +1,137 @@
+#experience{
+    position:absolute;
+    top:300%;
+    width:100%;
+    height:250%;
+
+}
+
+.experience_title{
+    position:absolute;
+    top:15%;
+    left:30%;
+    font-size:800%;
+    font-weight:bold;
+}
+
+.sub_title_1,.sub_title_2,.sub_title_3,.sub_title_4,.sub_title_5{
+    color: rgba(255, 255, 255, 0.4); /* 背景透かし文字色     */
+}
+
+.experience_title div{
+position:absolute;
+}
+
+.experience_contents{
+    position:absolute;
+    top:45%;
+    width:100%;
+    height:100%;
+}
+
+
+.ex_list1{
+    position:absolute;
+    width:30%;
+    height:33%;
+    border: 2px solid #ffffff;
+    left:10%;
+    top:0%;
+    padding: 2%;
+}
+
+.ex_image_list1{
+    position:absolute;
+    width:88%;
+    height:78%;
+}
+.ex_cont_list1{
+    position:absolute;
+    width:88%;
+    height:18%;
+    top:82%;
+}
+
+
+.ex_list2{
+    position:absolute;
+    width:30%;
+    height:33%;
+    border: 2px solid #ffffff;
+    left:50%;
+    top:22%;
+    padding: 2%;
+}
+
+
+.ex_image_list2{
+    position:absolute;
+    width:88%;
+    height:78%;
+}
+.ex_cont_list2{
+    position:absolute;
+    width:88%;
+    height:18%;
+    top:82%;
+}
+
+
+.ex_list3{
+    position:absolute;
+    width:30%;
+    height:33%;
+    border: 2px solid #ffffff;
+    left:12%;
+    top:44%;
+    padding: 2%;
+}
+
+.ex_image_list3{
+    position:absolute;
+    width:88%;
+    height:78%;
+}
+.ex_cont_list3{
+    position:absolute;
+    width:88%;
+    height:18%;
+    top:82%;
+}
+
+
+.ex_list4{
+    position:absolute;
+    width:30%;
+    height:33%;
+    border: 2px solid #ffffff;
+    left:52%;
+    top:66%;
+    padding: 2%;
+}
+
+
+.ex_image_list4{
+    position:absolute;
+    width:88%;
+    height:78%;
+}
+.ex_cont_list4{
+    position:absolute;
+    width:88%;
+    height:18%;
+    top:82%;
+}
+
+img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}

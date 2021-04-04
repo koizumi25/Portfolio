@@ -1,0 +1,51 @@
+#intro{
+    position:absolute;
+    top:0%;
+    width:100%;
+    height:150%;
+
+}
+
+#intro_title{
+    position:absolute;
+    top:20%;
+    left:30%;
+    font-size:800%;
+    font-weight:bold;
+    
+}
+
+
+
+.sub_title_1,.sub_title_2,.sub_title_3,.sub_title_4,.sub_title_5{
+    color: rgba(255, 255, 255, 0.4); /* 背景透かし文字色     */
+}
+
+#intro_title div{
+    position:absolute;
+    color:white;
+}
+
+#intro_main_contents{
+    position:absolute;
+    top:50%;
+    left:5%;
+    font-size:150%;
+}
+
+#intro_contents{
+    position:absolute;
+    top:55%;
+    left:5%;
+    font-size:100%;
+}
+
+
+/*トランザクション用処理*/
+
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .5s;
+  }
+  .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
+  }

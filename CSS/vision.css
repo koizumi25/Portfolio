@@ -1,0 +1,42 @@
+#vision{
+    position:absolute;
+    top:150%;
+    width:100%;
+    height:150%;
+    background-image: url(../image/vision.jpg);
+    background-repeat: no-repeat;                /* 背景の繰り返し設定 */
+    background-size: 30%;
+    background-position: 80% 80%;
+}
+
+
+.vision_title{
+    position:absolute;
+    top:20%;
+    left:30%;
+    font-size:800%;
+    font-weight:bold;
+}
+
+.sub_title_1,.sub_title_2,.sub_title_3,.sub_title_4,.sub_title_5{
+    color: rgba(255, 255, 255, 0.4); /* 背景透かし文字色     */
+}
+
+.vision_title div{
+position:absolute;
+}
+
+
+.vision_main_contents{
+    position:absolute;
+    top:50%;
+    left:5%;
+    font-size:150%;
+}
+
+.vision_contents{
+    position:absolute;
+    top:55%;
+    left:5%;
+    font-size:100%;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/intro.css">
+    <link rel="stylesheet" href="CSS/experience.css">
+    <link rel="stylesheet" href="CSS/vision.css">
+    <title>Yuki's LIFE</title>
+
+    <script src="Vue/vue.js"></script>
+    <script src="Vue/scrollTo.js"></script>
+</head>
+<body>
+
+  
+  <!--------------------------ヘッダー領域-------------------------->
+<nav id = "header">
+    <ul>
+      <li v-for="menu in header_menues"><nuxt-link v-scroll-to="menu.url"to> {{ menu.name }} </nuxt-link></li>
+    </ul>
+</nav>
+  <!--------------------------ヘッダー領域-------------------------->
+
+  <!--------------------------自己紹介-------------------------->
+<div id = "intro" @mousemove = "mousemove">
+
+  <div ref = "intro_first_child" id = "intro_title">
+    <div id = "main_title">SELFINTRO</div>
+      <div v-for="list in title" :id = "list.id" ref = "refname">{{ list.name }} </div>
+  </div>
+
+  <div id = "intro_main_contents">{{main_content}}</div>
+  <div id = "intro_contents">{{content}}{{message}}{{message2}}</div>
+</div>
+
+  <!--------------------------自己紹介-------------------------->
+
+
+  <!--------------------------Vision-------------------------->
+<div id = "vision">
+  <div class = "vision_title">
+    <div v-for="list in title" :class = "list.class">{{ list.name }} </div>
+  </div>
+  <div class = "vision_main_contents">{{main_content}}</div>
+  <div class = "vision_contents">{{content}}</div>
+  
+</div>
+  <!--------------------------Vision-------------------------->
+  <!--------------------------Experience-------------------------->
+<div id = "experience">
+  <div class = "experience_title">
+    <div v-for="list in title" :class = "list.class">{{ list.name }} </div>
+  </div>
+  <div class = "experience_contents">
+      <div v-for = "list in experience_lists" :class = "list.class">
+        <div :class = "list.image_class">
+        <img :src = "list.image"/>
+         </div>
+         <div :class = "list.content_class">
+          {{list.content}}
+          </div>
+      </div>
+  </div>
+  
+</div>
+  <!--------------------------Experience-------------------------->
+
+
+  <!--------------------------Contact-------------------------->
+
+<div class = "contact">
+  <div class = "contact_title">CONTACT</div>
+  <div class = "contact_contents"></div>
+  
+</div>
+  <!--------------------------Contact-------------------------->
+
+<script src="Vue/source/header.js"></script>
+<script src="Vue/source/intro.js"></script>
+<script src="Vue/source/vision.js"></script>
+<script src="Vue/source/experience.js"></script>
+</script>
+</body>
+
+
+</html>
