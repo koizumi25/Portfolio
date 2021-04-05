@@ -16,16 +16,19 @@
 }
 
 
-
-.sub_title_1,.sub_title_2,.sub_title_3,.sub_title_4,.sub_title_5{
-    color: rgba(255, 255, 255, 0.4); /* 背景透かし文字色     */
+#sub_title_1,#sub_title_2,#sub_title_3,#sub_title_4,#sub_title_5{
+    color:rgba(200, 0, 255, 0.5); 
 }
 
 #intro_title div{
     position:absolute;
-    color:white;
+
 }
 
+#intro_title #main_title{
+    z-index:1;
+    color:white;
+}
 #intro_main_contents{
     position:absolute;
     top:50%;
