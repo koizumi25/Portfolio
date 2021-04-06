@@ -52,3 +52,28 @@
   .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
     opacity: 0;
   }
+
+
+  #cursor,
+  #follower {
+    border-radius: 50%;
+    position: absolute; /*bodyの一番左上になるように配置する*/
+    top: 0;
+    left: 0; 
+    cursor: none; /*もともとあるカーソルは見えなくなるようにする*/
+    pointer-events: none; /*他の要素がクリックできなくならないように*/
+  }
+   
+  #cursor {
+    width: 8px;
+    height: 8px;
+    background-color: rgba(0,240,240,1);
+    z-index: 1001; /*どの要素よりも一番上になるようにする*/
+  }
+   
+  #follower {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255,0,0,0.4);
+    z-index: 1000; /*カーソルの次に上になるようにする*/
+  }

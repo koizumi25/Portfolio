@@ -1,0 +1,24 @@
+2021/4/5
+【Vueを用いてリアルタイムに配列に要素を追加したい場合（イベント関数内で配列に要素を追加したりする場合）】
+title_topが配列の場合
+this.title_top.splice(要素番号,追加したい要素数,値)
+を使用！！
+通常のJSなどのようにthis.title_top[i] = 0;としても値は反映されない．
+
+
+2021/4/6
+【Vue.jsで遅延させたい場合（Sleep関数のようなやり方）】
+SetTimeOut関数を用いる．
+使用例を以下に示す．
+setTimeOut(function{}.bind(this),5000);
+第一引数に関数.bind(this)　第2引数に[ms]
+https://www.codit.work/codes/x8ca2bpqpd8f97vnphz8/
+
+【マウスカーソルを自分で作成したい場合】
+divで範囲を指定して，形を指定し，div要素をマウスカーソルの位置に合わせる
+もともとのマウスを削除する場合はcursor:none;とbodyプロパティに記述
+
+イケてるマウスカーソル
+https://www.evoworx.co.jp/blog/mouse-stoker-gsap/
+マウスカーソルの削除
+https://qiita.com/narikei/items/f45c8f716835398448b1
